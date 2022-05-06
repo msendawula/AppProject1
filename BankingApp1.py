@@ -70,7 +70,7 @@ def main():
         print("\tb) View Account")
         print("\tc) Update Account")
         print("\td) Close Account")
-        print("\ts) Save all accounts to MongoDB")
+        print("\ts) Save all accounts to MongoDB (Must restart application before saving.)")
         print("\tq) Quit")
         option = input(">>>")
 
@@ -184,10 +184,6 @@ def main():
             import pandas
             bankaccounts=pandas.read_csv("saved_accounts.txt", header = [0])
             bankaccounts.to_csv("saved_bankaccounts.csv", index = None)
-
-            col = BankAccountsdb.accounts
-            query={"account_number": option}
-            col.delete_one(query)
 
 
 def save_to_db(bkacct, BankAccountsdb):
