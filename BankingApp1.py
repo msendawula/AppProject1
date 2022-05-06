@@ -60,7 +60,7 @@ def main():
 
     BankAccountsdb = client.BankAccounts
 
-    print("Welcome to the QuickTeller App")
+    print("Welcome to the QuickTeller Application")
     
     lst_Accounts = load_accounts()
 
@@ -116,9 +116,10 @@ def main():
             print("\ta) Deposit Funds")
             print("\tb) Withdraw Funds")
             BankTransact = input(">>>")
-
+        
 
             if BankTransact == "a":
+                import decimal
                 print("\tPlease enter the Account Number")
                 option = input(">>>")
                 print("Please enter the deposit amount.")
@@ -128,7 +129,7 @@ def main():
                     csvreader = csv.reader(d)
                     for row in csvreader:
                             if option == row[1]:
-                                row[2] = (int(float(row[2])) + int(float(Deposit)))
+                                row[2] = ((float(row[2])) + (float(Deposit)))
                                 updated_row.append(row)
                             else:
                                 updated_row.append(row)
@@ -141,6 +142,7 @@ def main():
 
 
             if BankTransact == "b":
+                import decimal
                 print("\tPlease enter the Account Number")
                 option = input(">>>")
                 print("Please enter the withdrawal amount.")
@@ -150,7 +152,7 @@ def main():
                     csvreader = csv.reader(d)
                     for row in csvreader:
                             if option == row[1]:
-                                row[2] = (int(float(row[2])) - int(float(Withdrawal)))
+                                row[2] = ((float(row[2])) - (float(Withdrawal)))
                                 updated_row.append(row)
                             else:
                                 updated_row.append(row)
