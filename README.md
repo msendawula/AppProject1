@@ -6,19 +6,19 @@ This project is a teller app that allows for a teller to quickly complete transa
 
 ## Technologies Used
 
-Python - Version 3.10.4
-MongoDB - Version 1.31.2
-Visual Studio - Version 1.67.2
+* Python - Version 3.10.4
+* MongoDB - Version 1.31.2
+* Visual Studio - Version 1.67.2
 
 
 ## Features
 
-Check Account Balances
-Open and Close Accounts
-Complete Deposits and Withdrawals
+* Check Account Balances
+* Open and Close Accounts
+* Complete Deposits and Withdrawals
 
 To-do list:
-Improve MongoDB functionality
-Improve Interface Visualizaton
-Improve User Instructions
-Add Exception Handling
+* Improve MongoDB functionality
+* Improve Interface Visualizaton
+* Improve User Instructions
+* Add Exception Handling
