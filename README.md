@@ -28,7 +28,7 @@ This project is a teller app that allows for a teller to quickly complete transa
 * Install Pymongo
 * Install MongoDB
 * Install application capable of reading CSVs
-* You can then run the code in your preferred code editor
+* You can then run the code in your preferred Code Editor
 
 ## Usage
 * Open your Code Editor 
