@@ -33,4 +33,4 @@ This project is a teller app that allows for a teller to quickly complete transa
 ## Usage
 * Open your Code Editor 
 * Run the code in the Code Editor
-* You'll now have a Saved Accounts CSV, Txt file, and MongoDB database
+* The CLI will begin and you can enter account information per the instructions
