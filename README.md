@@ -17,8 +17,20 @@ This project is a teller app that allows for a teller to quickly complete transa
 * Open and Close Accounts
 * Complete Deposits and Withdrawals
 
-To-do list:
+## To-do list:
 * Improve MongoDB functionality
-* Improve Interface Visualizaton
+* Improve Interface Visualization
 * Improve User Instructions
 * Add Exception Handling
+
+## Getting Started
+* Install Python program 
+* Install Pymongo
+* Install MongoDB
+* Install application capable of reading CSVs
+* You can then run the code in your preferred code editor
+
+## Usage
+* Open your Code Editor 
+* Run the code in the Code Editor
+* You'll now have a Saved Accounts CSV, Txt file, and MongoDB database
